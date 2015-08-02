@@ -1,0 +1,71 @@
+{
+  "name": "timezonedb-node",
+  "version": "1.0.0",
+  "description": "An asynchronous client library for TimeZoneDB API.",
+  "keywords": [
+    "timezonedb",
+    "timezone",
+    "time",
+    "geo",
+    "location",
+    "json",
+    "node"
+  ],
+  "homepage": "https://github.com/AnatoliyGatt/timezonedb-node",
+  "bugs": {
+    "url": "https://github.com/AnatoliyGatt/timezonedb-node/issues",
+    "email": "anatoliy.gatt@aol.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Anatoliy Gatt",
+    "email": "anatoliy.gatt@aol.com",
+    "url": null
+  },
+  "contributors": [],
+  "files": [
+    "LICENSE",
+    "CHANGELOG.md",
+    "README.md",
+    "index.js",
+    "lib/"
+  ],
+  "main": "index.js",
+  "bin": {},
+  "man": {},
+  "directories": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnatoliyGatt/timezonedb-node.git"
+  },
+  "scripts": {
+    "test": "mocha --colors --sort --bail --reporter spec --check-leaks --full-trace --no-timeouts --recursive ./test/*.js"
+  },
+  "config": {},
+  "dependencies": {
+    "deep-freeze-node": "^1.0.8"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "peerDependencies": {},
+  "bundledDependencies": [],
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "ia32",
+    "arm",
+    "mips"
+  ],
+  "preferGlobal": false,
+  "private": false,
+  "publishConfig": ""
+}
