@@ -39,7 +39,7 @@
     "url": "https://github.com/AnatoliyGatt/timezonedb-node.git"
   },
   "scripts": {
-    "test": "mocha --colors --sort --bail --reporter spec --check-leaks --full-trace --no-timeouts --recursive ./test/*.js"
+    "test": "API_KEY=DG2LCVSD76D5 mocha --colors --sort --bail --reporter spec --check-leaks --full-trace --no-timeouts --recursive ./test/*.js"
   },
   "config": {},
   "dependencies": {
