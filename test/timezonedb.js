@@ -44,7 +44,7 @@ describe("timezonedb", function() {
                 assert.notEqual(data.timestamp, undefined, "data.timestamp should not be undefined");
             }
 
-            it("should respond with valid timezone data object, requested with zone", function(done) {
+            it("should respond with valid time zone data object, requested with zone", function(done) {
                 timezonedb.getTimeZoneData({
                     zone: "Australia/Melbourne"
                 }, function(error, data) {
@@ -59,7 +59,7 @@ describe("timezonedb", function() {
                 });
             });
 
-            it("should respond with valid timezone data object, requested with lat and lng", function(done) {
+            it("should respond with valid time zone data object, requested with lat and lng", function(done) {
                 timezonedb.getTimeZoneData({
                     lat: 53.7833,
                     lng: -1.75
@@ -75,7 +75,7 @@ describe("timezonedb", function() {
                 });
             });
 
-            it("should respond with valid timezone data object, requested with lat, lng and time", function(done) {
+            it("should respond with valid time zone data object, requested with lat, lng and time", function(done) {
                 timezonedb.getTimeZoneData({
                     lat: 53.7833,
                     lng: -1.75,
