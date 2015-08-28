@@ -9,6 +9,7 @@ An asynchronous client library for TimeZoneDB [API](https://timezonedb.com/api/)
 [![devDependencies Status][devDependencies-status-badge]][devDependencies-status-page-url]
 
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
+[![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
 
 [![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]
 
