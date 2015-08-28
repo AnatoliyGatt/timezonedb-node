@@ -123,12 +123,16 @@ $ npm test
 
 Distributed under the [MIT License](LICENSE).
 
-[npm-image]: https://img.shields.io/npm/v/timezonedb-node.svg
-[npm-url]: https://npmjs.org/package/timezonedb-node
-[downloads-image]: https://img.shields.io/npm/dm/timezonedb-node.svg
-[downloads-url]: https://npmjs.org/package/timezonedb-node
-[license]: https://img.shields.io/npm/l/timezonedb-node.svg
-[license-url]: https://github.com/AnatoliyGatt/timezonedb-node/blob/master/LICENSE
-[travis-image]: https://img.shields.io/travis/AnatoliyGatt/timezonedb-node/master.svg
-[travis-url]: https://travis-ci.org/AnatoliyGatt/timezonedb-node
-[npm-statistics-image]: https://nodei.co/npm/timezonedb-node.png?downloads=true&downloadRank=true&stars=true
+[npm-package-url]: https://npmjs.org/package/timezonedb-node
+
+[npm-package-version-badge]: https://img.shields.io/npm/v/timezonedb-node.svg
+
+[npm-package-license-badge]: https://img.shields.io/npm/l/timezonedb-node.svg
+[npm-package-license-url]: http://opensource.org/licenses/MIT
+
+[npm-package-downloads-badge]: https://img.shields.io/npm/dm/timezonedb-node.svg
+
+[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/timezonedb-node.svg
+[travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/timezonedb-node
+
+[npm-package-statistics-badge]: https://nodei.co/npm/timezonedb-node.png?downloads=true&downloadRank=true&stars=true
