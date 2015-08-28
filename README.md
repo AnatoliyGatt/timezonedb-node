@@ -2,12 +2,12 @@
 
 An asynchronous client library for TimeZoneDB [API](https://timezonedb.com/api/).
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![License][license]][license-url]
-[![Travis Build][travis-image]][travis-url]
+[![NPM Package Version][npm-package-version-badge]][npm-package-url]
+[![NPM Package License][npm-package-license-badge]][npm-package-license-url]
+[![NPM Package Downloads][npm-package-downloads-badge]][npm-package-url]
+[![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
 
-[![NPM Statistics][npm-statistics-image]][npm-url]
+[![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]
 
 ## Installation
 
