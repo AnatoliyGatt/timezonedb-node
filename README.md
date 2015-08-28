@@ -8,6 +8,7 @@ An asynchronous client library for TimeZoneDB [API](https://timezonedb.com/api/)
 [![Dependencies Status][dependencies-status-badge]][dependencies-status-page-url]
 [![devDependencies Status][devDependencies-status-badge]][devDependencies-status-page-url]
 
+[![Node Version][node-version-badge]][node-downloads-page-url]
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
 [![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
 
@@ -141,6 +142,9 @@ Distributed under the [MIT License](LICENSE).
 
 [devDependencies-status-badge]: https://david-dm.org/AnatoliyGatt/timezonedb-node/dev-status.svg?style=flat-square
 [devDependencies-status-page-url]: https://david-dm.org/AnatoliyGatt/timezonedb-node#info=devDependencies
+
+[node-version-badge]: https://img.shields.io/node/v/timezonedb-node.svg?style=flat-square
+[node-downloads-page-url]: https://nodejs.org/download/
 
 [travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/timezonedb-node.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/timezonedb-node
