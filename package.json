@@ -46,6 +46,7 @@
     "deep-freeze-node": "^1.0.8"
   },
   "devDependencies": {
+    "codeclimate-test-reporter": "^0.1.0",
     "istanbul": "^0.3.18",
     "mocha": "^2.2.5"
   },
