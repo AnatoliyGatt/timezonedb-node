@@ -125,14 +125,14 @@ Distributed under the [MIT License](LICENSE).
 
 [npm-package-url]: https://npmjs.org/package/timezonedb-node
 
-[npm-package-version-badge]: https://img.shields.io/npm/v/timezonedb-node.svg
+[npm-package-version-badge]: https://img.shields.io/npm/v/timezonedb-node.svg?style=flat-square
 
-[npm-package-license-badge]: https://img.shields.io/npm/l/timezonedb-node.svg
+[npm-package-license-badge]: https://img.shields.io/npm/l/timezonedb-node.svg?style=flat-square
 [npm-package-license-url]: http://opensource.org/licenses/MIT
 
-[npm-package-downloads-badge]: https://img.shields.io/npm/dm/timezonedb-node.svg
+[npm-package-downloads-badge]: https://img.shields.io/npm/dm/timezonedb-node.svg?style=flat-square
 
-[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/timezonedb-node.svg
+[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/timezonedb-node.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/timezonedb-node
 
 [npm-package-statistics-badge]: https://nodei.co/npm/timezonedb-node.png?downloads=true&downloadRank=true&stars=true
