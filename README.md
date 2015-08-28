@@ -1,4 +1,4 @@
-# TimeZoneDB for Node.js
+![timezonedb-node Logo][logo]
 
 An asynchronous client library for TimeZoneDB [API](https://timezonedb.com/api/).
 
@@ -129,6 +129,8 @@ $ npm test
 ## License
 
 Distributed under the [MIT License](LICENSE).
+
+[logo]: https://cldup.com/oAcYhsondW.png
 
 [npm-package-url]: https://npmjs.org/package/timezonedb-node
 
