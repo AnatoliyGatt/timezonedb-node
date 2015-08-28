@@ -46,7 +46,7 @@
   },
   "config": {},
   "dependencies": {
-    "deep-freeze-node": "^1.0.8"
+    "deep-freeze-node": "^1.0.9"
   },
   "devDependencies": {
     "codeclimate-test-reporter": "^0.1.0",
