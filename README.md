@@ -144,4 +144,7 @@ Distributed under the [MIT License](LICENSE).
 [travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/timezonedb-node.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/timezonedb-node
 
+[code-climate-status-badge]: https://img.shields.io/codeclimate/github/AnatoliyGatt/timezonedb-node.svg?style=flat-square
+[code-climate-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/timezonedb-node
+
 [npm-package-statistics-badge]: https://nodei.co/npm/timezonedb-node.png?downloads=true&downloadRank=true&stars=true
