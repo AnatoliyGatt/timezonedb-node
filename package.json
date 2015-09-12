@@ -57,7 +57,7 @@
   "bundledDependencies": [],
   "optionalDependencies": {},
   "engines": {
-    "node": ">= 0.10.x"
+    "node": ">= 0.10.0"
   },
   "os": [
     "darwin",
