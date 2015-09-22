@@ -25,10 +25,10 @@ An asynchronous client library for TimeZoneDB [API](https://timezonedb.com/api/)
 The quickest way to get started is by executing following code:
 
 ```javascript
-var timezonedb = require("timezonedb-node")("YOUR_API_KEY");
+var timezonedb = require('timezonedb-node')('YOUR_API_KEY');
 
 timezonedb.getTimeZoneData({
-    zone: "Australia/Melbourne"
+    zone: 'Australia/Melbourne'
 }, function(error, data) {
     if(!error) {
         console.log(data);
@@ -72,7 +72,7 @@ Requests timezone data of zone.
 
 ```javascript
 timezonedb.getTimeZoneData({
-    zone: "Australia/Melbourne"
+    zone: 'Australia/Melbourne'
 }, function(error, data) {
     if(!error) {
         console.log(data);
