@@ -7,7 +7,7 @@
  * @license MIT
  */
 
-"use strict";
+'use strict';
 
 /**
  * @public
@@ -15,4 +15,4 @@
  * @returns {Function} - Function to initialize unchangeable instance of TimeZoneDB.
  */
 
-module.exports = require("./lib/timezonedb");
+module.exports = require('./lib/timezonedb');
