@@ -49,9 +49,9 @@
     "deep-freeze-node": "^1.1.0"
   },
   "devDependencies": {
-    "codeclimate-test-reporter": "^0.1.0",
-    "istanbul": "^0.3.18",
-    "mocha": "^2.2.5"
+    "codeclimate-test-reporter": "^0.1.1",
+    "istanbul": "^0.3.21",
+    "mocha": "^2.3.3"
   },
   "peerDependencies": {},
   "bundledDependencies": [],
