@@ -9,6 +9,8 @@ node_js:
   - iojs-v2.0.0
   - iojs-v1.0.0
 sudo: false
+env:
+  - API_KEY=DG2LCVSD76D5
 script:
   - npm run test-ci
 after_script:
