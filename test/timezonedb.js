@@ -1,5 +1,5 @@
 var assert = require('assert');
-var timezonedb = require('../lib/timezonedb')('DG2LCVSD76D5');
+var timezonedb = require('../lib/timezonedb')(process.env.API_KEY);
 
 describe('timezonedb', function() {
     describe('init', function() {
