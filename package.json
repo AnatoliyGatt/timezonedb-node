@@ -41,7 +41,7 @@
   "scripts": {
     "test": "API_KEY=DG2LCVSD76D5 mocha --colors --sort --bail --reporter spec --check-leaks --full-trace --no-timeouts --recursive ./test/*.js",
     "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --colors --sort --bail --reporter spec --check-leaks --full-trace --no-timeouts --recursive ./test/*.js",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --colors --sort --bail --reporter dot --check-leaks --full-trace --no-timeouts --recursive ./test/*.js",
+    "test-cov": "API_KEY=DG2LCVSD76D5 istanbul cover node_modules/mocha/bin/_mocha -- --colors --sort --bail --reporter dot --check-leaks --full-trace --no-timeouts --recursive ./test/*.js",
     "test-tap": "mocha --colors --sort --bail --reporter tap --check-leaks --full-trace --no-timeouts --recursive ./test/*.js"
   },
   "config": {},
