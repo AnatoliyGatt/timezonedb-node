@@ -15,7 +15,6 @@ script:
   - npm run test-ci
 after_script:
   - codeclimate-test-reporter < ./coverage/lcov.info
-  - rm -rf ./coverage
 addons:
   code_climate:
     repo_token:
