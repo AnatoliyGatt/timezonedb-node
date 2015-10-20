@@ -48,7 +48,7 @@ describe('timezonedb', function() {
                 timezonedb.getTimeZoneData({
                     zone: 'Australia/Melbourne'
                 }, function(error, data) {
-                    if(!error) {
+                    if (!error) {
                         validateTimeZoneData(data);
                     } else {
                         assert.throws(function() {
