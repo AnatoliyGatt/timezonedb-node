@@ -112,7 +112,7 @@ describe('timezonedb', function() {
                     lat: 1000,
                     lng: 1000
                 }, function(error, data) {
-                    if(!error) {
+                    if (!error) {
                         validateTimeZoneData(data);
                     } else {
                         assert.throws(function() {
