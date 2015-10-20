@@ -96,7 +96,7 @@ describe('timezonedb', function() {
                 timezonedb.getTimeZoneData({
                     zone: 'Melbourne'
                 }, function(error, data) {
-                    if(!error) {
+                    if (!error) {
                         validateTimeZoneData(data);
                     } else {
                         assert.throws(function() {
