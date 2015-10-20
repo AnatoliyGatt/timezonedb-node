@@ -81,7 +81,7 @@ describe('timezonedb', function() {
                     lng: -1.75,
                     time: 1366552200
                 }, function(error, data) {
-                    if(!error) {
+                    if (!error) {
                         validateTimeZoneData(data);
                     } else {
                         assert.throws(function() {
