@@ -1,11 +1,11 @@
 var assert = require('assert');
 var timezonedb = require('../lib/timezonedb')(process.env.API_KEY);
 
-describe('timezonedb', function() {
-    describe('init', function() {
+describe('timezonedb', function () {
+    describe('init', function () {
         var defaultRequestOptions = {};
 
-        before(function() {
+        before(function () {
             defaultRequestOptions = {
                 hostname: 'api.timezonedb.com',
                 port: 80,
@@ -13,11 +13,11 @@ describe('timezonedb', function() {
             }
         });
 
-        it('should have correct default request options', function() {
+        it('should have correct default request options', function () {
             assert.deepEqual(timezonedb.defaultRequestOptions, defaultRequestOptions, 'default request options should have correct initial property values');
         });
 
-        it('should not override default request options', function() {
+        it('should not override default request options', function () {
             timezonedb.defaultRequestOptions = {
                 hostname: 'timezonedb.com',
                 port: 3000,
@@ -28,8 +28,8 @@ describe('timezonedb', function() {
         });
     });
 
-    describe('functions', function() {
-        describe('#getTimeZoneData()', function() {
+    describe('functions', function () {
+        describe('#getTimeZoneData()', function () {
             function validateTimeZoneData(data) {
                 assert.notEqual(data, undefined, 'data should not be undefined');
                 assert.notEqual(data.status, undefined, 'data.status should not be undefined');
@@ -44,14 +44,14 @@ describe('timezonedb', function() {
                 assert.notEqual(data.timestamp, undefined, 'data.timestamp should not be undefined');
             }
 
-            it('should respond with valid time zone data object, requested with zone', function(done) {
+            it('should respond with valid time zone data object, requested with zone', function (done) {
                 timezonedb.getTimeZoneData({
                     zone: 'Australia/Melbourne'
-                }, function(error, data) {
+                }, function (error, data) {
                     if (!error) {
                         validateTimeZoneData(data);
                     } else {
-                        assert.throws(function() {
+                        assert.throws(function () {
                             throw error;
                         }, Error);
                     }
@@ -59,15 +59,15 @@ describe('timezonedb', function() {
                 });
             });
 
-            it('should respond with valid time zone data object, requested with lat and lng', function(done) {
+            it('should respond with valid time zone data object, requested with lat and lng', function (done) {
                 timezonedb.getTimeZoneData({
                     lat: 53.7833,
                     lng: -1.75
-                }, function(error, data) {
+                }, function (error, data) {
                     if (!error) {
                         validateTimeZoneData(data);
                     } else {
-                        assert.throws(function() {
+                        assert.throws(function () {
                             throw error;
                         }, Error);
                     }
@@ -75,16 +75,16 @@ describe('timezonedb', function() {
                 });
             });
 
-            it('should respond with valid time zone data object, requested with lat, lng and time', function(done) {
+            it('should respond with valid time zone data object, requested with lat, lng and time', function (done) {
                 timezonedb.getTimeZoneData({
                     lat: 53.7833,
                     lng: -1.75,
                     time: 1366552200
-                }, function(error, data) {
+                }, function (error, data) {
                     if (!error) {
                         validateTimeZoneData(data);
                     } else {
-                        assert.throws(function() {
+                        assert.throws(function () {
                             throw error;
                         }, Error);
                     }
@@ -92,14 +92,14 @@ describe('timezonedb', function() {
                 });
             });
 
-            it('should respond with error when called with invalid zone', function(done) {
+            it('should respond with error when called with invalid zone', function (done) {
                 timezonedb.getTimeZoneData({
                     zone: 'Melbourne'
-                }, function(error, data) {
+                }, function (error, data) {
                     if (!error) {
                         validateTimeZoneData(data);
                     } else {
-                        assert.throws(function() {
+                        assert.throws(function () {
                             throw error;
                         }, Error);
                     }
@@ -107,15 +107,15 @@ describe('timezonedb', function() {
                 });
             });
 
-            it('should respond with error when called with invalid lat and lng', function(done) {
+            it('should respond with error when called with invalid lat and lng', function (done) {
                 timezonedb.getTimeZoneData({
                     lat: 1000,
                     lng: 1000
-                }, function(error, data) {
+                }, function (error, data) {
                     if (!error) {
                         validateTimeZoneData(data);
                     } else {
-                        assert.throws(function() {
+                        assert.throws(function () {
                             throw error;
                         }, Error);
                     }
@@ -123,13 +123,13 @@ describe('timezonedb', function() {
                 });
             });
 
-            it('should fail when called without zone or lat and lng', function() {
-                assert.throws(function() {
-                    timezonedb.getTimeZoneData(function(error, data) {
+            it('should fail when called without zone or lat and lng', function () {
+                assert.throws(function () {
+                    timezonedb.getTimeZoneData(function (error, data) {
                         if (!error) {
                             validateTimeZoneData(data);
                         } else {
-                            assert.throws(function() {
+                            assert.throws(function () {
                                 throw error;
                             }, Error);
                         }
@@ -137,14 +137,14 @@ describe('timezonedb', function() {
                 }, Error);
             });
 
-            it('should fail when called without arguments', function() {
-                assert.throws(function() {
+            it('should fail when called without arguments', function () {
+                assert.throws(function () {
                     timezonedb.getTimeZoneData();
                 }, Error);
             });
 
-            it('should fail when called with options only', function() {
-                assert.throws(function() {
+            it('should fail when called with options only', function () {
+                assert.throws(function () {
                     timezonedb.getTimeZoneData({
                         zone: 'Australia/Melbourne',
                         time: 1366552200
@@ -152,12 +152,12 @@ describe('timezonedb', function() {
                 }, Error);
             });
 
-            it('should not be overridden', function() {
-                timezonedb.getTimeZoneData = function() {
+            it('should not be overridden', function () {
+                timezonedb.getTimeZoneData = function () {
                     return '#getTimeZoneData()';
                 };
 
-                assert.throws(function() {
+                assert.throws(function () {
                     assert.notEqual(timezonedb.getTimeZoneData(), '#getTimeZoneData()', '#getTimeZoneData() should not be overridden');
                 }, Error);
             });
