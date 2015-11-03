@@ -1,3 +1,27 @@
+1.0.5 / 2015-11-03
+==================
+
+* Fix anonymous functions declaration coding style in timezonedb.js tests
+* Fix anonymous functions declaration coding style in timezonedb.js
+* Fix 'if-else statements' coding style in timezonedb.js tests
+* Fix 'try-catch statement' coding style in timezonedb.js
+* Fix 'else-if statements' coding style in timezonedb.js
+* Fix 'if statements' coding style in timezonedb.js
+* Fix 'if-else statements' coding style in timezonedb.js
+* Update dev dependencies
+* Update .travis.yml to run tests against node v4.2.0
+* Remove manual deletion script of coverage directory in .travis.yml
+* Replace encrypted API_KEY environment variable with unencrypted one in .travis.yml
+* Add API_KEY as environment variable to test-tap script in package.json
+* Add API_KEY as environment variable to test-cov script in package.json
+* Add API_KEY as environment variable to test script in package.json
+* Replace unencrypted API_KEY environment variable with encrypted one in .travis.yml
+* Replace API_KEY string with environment variable in timezonedb.js tests
+* Add API_KEY as environment variable to .travis.yml
+* Replace unencrypted CodeClimate repo_token with encrypted one in .travis.yml
+* Update .travis.yml to run tests against node v4.1.0
+* Update dependencies
+
 1.0.4 / 2015-10-01
 ==================
 

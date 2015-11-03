@@ -1,6 +1,6 @@
 {
   "name": "timezonedb-node",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An asynchronous client library for TimeZoneDB API.",
   "keywords": [
     "timezonedb",
