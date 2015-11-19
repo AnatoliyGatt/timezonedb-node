@@ -6,6 +6,7 @@
     "timezonedb",
     "timezone",
     "time",
+    "zone",
     "geo",
     "location",
     "json",
