@@ -29,7 +29,7 @@ var timezonedb = require('timezonedb-node')('YOUR_API_KEY');
 
 timezonedb.getTimeZoneData({
     zone: 'Australia/Melbourne'
-}, function(error, data) {
+}, function (error, data) {
     if(!error) {
         console.log(data);
     } else {
