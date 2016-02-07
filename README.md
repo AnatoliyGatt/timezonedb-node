@@ -74,7 +74,7 @@ Requests timezone data of zone.
 timezonedb.getTimeZoneData({
     zone: 'Australia/Melbourne'
 }, function (error, data) {
-    if(!error) {
+    if (!error) {
         console.log(data);
     } else {
         console.error(error);
