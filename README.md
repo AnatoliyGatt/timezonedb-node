@@ -88,7 +88,7 @@ Requests timezone data of location.
 timezonedb.getTimeZoneData({
     lat: 53.7833,
     lng: -1.75
-}, function(error, data) {
+}, function (error, data) {
     if(!error) {
         console.log(data);
     } else {
