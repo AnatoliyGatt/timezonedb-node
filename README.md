@@ -105,7 +105,7 @@ timezonedb.getTimeZoneData({
     lng: -1.75,
     time: 1366552200
 }, function (error, data) {
-    if(!error) {
+    if (!error) {
         console.log(data);
     } else {
         console.error(error);
