@@ -104,7 +104,7 @@ timezonedb.getTimeZoneData({
     lat: 53.7833,
     lng: -1.75,
     time: 1366552200
-}, function(error, data) {
+}, function (error, data) {
     if(!error) {
         console.log(data);
     } else {
