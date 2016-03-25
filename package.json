@@ -54,8 +54,8 @@
   },
   "devDependencies": {
     "codeclimate-test-reporter": "^0.3.1",
-    "istanbul": "^0.4.1",
-    "mocha": "^2.3.4"
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
   },
   "peerDependencies": {},
   "bundledDependencies": [],
