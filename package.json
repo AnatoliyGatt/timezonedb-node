@@ -49,9 +49,7 @@
     "test-tap": "API_KEY=DG2LCVSD76D5 mocha --colors --sort --bail --reporter tap --check-leaks --full-trace --no-timeouts --recursive ./test/*.js"
   },
   "config": {},
-  "dependencies": {
-    "deep-freeze-node": "^1.1.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "codeclimate-test-reporter": "^0.3.1",
     "istanbul": "^0.4.2",
