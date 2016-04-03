@@ -109,15 +109,7 @@ describe('timezonedb', function () {
 
             it('should fail when called without zone or lat and lng', function () {
                 assert.throws(function () {
-                    timezonedb.getTimeZoneData(function (error, data) {
-                        if (!error) {
-                            validateTimeZoneData(data);
-                        } else {
-                            assert.throws(function () {
-                                throw error;
-                            }, Error);
-                        }
-                    });
+                    timezonedb.getTimeZoneData(function (error, data) {});
                 }, Error);
             });
 
