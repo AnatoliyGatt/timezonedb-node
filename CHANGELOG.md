@@ -1,3 +1,18 @@
+1.0.7 / 2016-04-03
+==================
+
+* Remove dependencies badge from README.md
+* Remove deep-freeze-node as dependency in package.json
+* Update index.js documentation comments
+* Add delay of 500ms before each test run in #getTimeZoneData() test suite to avoid '503 Service Temporarily Unavailable' error from TimeZoneDB API server in timezonedb.js tests
+* Update timezonedb.js tests
+* Fix timezonedb.js tests
+* Remove require of deep-freeze-node in timezonedb.js
+* Update timezonedb.js documentation comments
+* Expose unfrozen instance of TimeZoneDB in timezonedb.js
+* Update dev dependencies
+* Update dependencies
+
 1.0.6 / 2016-03-12
 ==================
 
