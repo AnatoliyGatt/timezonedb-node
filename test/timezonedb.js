@@ -34,6 +34,12 @@ describe('timezonedb', function () {
                 assert.ok(data.timestamp, undefined, 'data.timestamp should not be undefined, null or empty');
             }
 
+            beforeEach(function (done) {
+                setTimeout(function () {
+                    done();
+                }, 500);
+            });
+
             it('should respond with valid time zone data object, requested with zone', function (done) {
                 timezonedb.getTimeZoneData({
                     zone: 'Australia/Melbourne'
