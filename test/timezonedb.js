@@ -38,13 +38,10 @@ describe('timezonedb', function () {
                 timezonedb.getTimeZoneData({
                     zone: 'Australia/Melbourne'
                 }, function (error, data) {
-                    if (!error) {
-                        validateTimeZoneData(data);
-                    } else {
-                        assert.throws(function () {
-                            throw error;
-                        }, Error);
+                    if (error) {
+                        return done(error);
                     }
+                    validateTimeZoneData(data);
                     done();
                 });
             });
@@ -54,13 +51,10 @@ describe('timezonedb', function () {
                     lat: 53.7833,
                     lng: -1.75
                 }, function (error, data) {
-                    if (!error) {
-                        validateTimeZoneData(data);
-                    } else {
-                        assert.throws(function () {
-                            throw error;
-                        }, Error);
+                    if (error) {
+                        return done(error);
                     }
+                    validateTimeZoneData(data);
                     done();
                 });
             });
