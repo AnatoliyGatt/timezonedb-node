@@ -21,17 +21,17 @@ describe('timezonedb', function () {
     describe('functions', function () {
         describe('#getTimeZoneData()', function () {
             function validateTimeZoneData(data) {
-                assert.notEqual(data, undefined, 'data should not be undefined');
-                assert.notEqual(data.status, undefined, 'data.status should not be undefined');
+                assert.ok(data, undefined, 'data should not be undefined, null or empty');
+                assert.ok(data.status, undefined, 'data.status should not be undefined, null or empty');
                 assert.notEqual(data.status, 'FAIL', 'data.status should not be equal to FAIL');
                 assert.notEqual(data.message, undefined, 'data.message should not be undefined');
                 assert.equal(data.message, '', 'data.message should be empty');
-                assert.notEqual(data.countryCode, undefined, 'data.countryCode should not be undefined');
-                assert.notEqual(data.zoneName, undefined, 'data.zoneName should not be undefined');
-                assert.notEqual(data.abbreviation, undefined, 'data.abbreviation should not be undefined');
-                assert.notEqual(data.gmtOffset, undefined, 'data.gmtOffset should not be undefined');
-                assert.notEqual(data.dst, undefined, 'data.dst should not be undefined');
-                assert.notEqual(data.timestamp, undefined, 'data.timestamp should not be undefined');
+                assert.ok(data.countryCode, undefined, 'data.countryCode should not be undefined, null or empty');
+                assert.ok(data.zoneName, undefined, 'data.zoneName should not be undefined, null or empty');
+                assert.ok(data.abbreviation, undefined, 'data.abbreviation should not be undefined, null or empty');
+                assert.ok(data.gmtOffset, undefined, 'data.gmtOffset should not be undefined, null or empty');
+                assert.ok(data.dst, undefined, 'data.dst should not be undefined, null or empty');
+                assert.ok(data.timestamp, undefined, 'data.timestamp should not be undefined, null or empty');
             }
 
             it('should respond with valid time zone data object, requested with zone', function (done) {
