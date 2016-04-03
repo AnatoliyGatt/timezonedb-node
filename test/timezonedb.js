@@ -16,16 +16,6 @@ describe('timezonedb', function () {
         it('should have correct default request options', function () {
             assert.deepEqual(timezonedb.defaultRequestOptions, defaultRequestOptions, 'default request options should have correct initial property values');
         });
-
-        it('should not override default request options', function () {
-            timezonedb.defaultRequestOptions = {
-                hostname: 'timezonedb.com',
-                port: 3000,
-                basePath: '/api/'
-            };
-
-            assert.deepEqual(timezonedb.defaultRequestOptions, defaultRequestOptions, 'default request options should not be overridden');
-        });
     });
 
     describe('functions', function () {
