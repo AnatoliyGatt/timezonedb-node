@@ -80,13 +80,9 @@ describe('timezonedb', function () {
                 timezonedb.getTimeZoneData({
                     zone: 'Melbourne'
                 }, function (error, data) {
-                    if (!error) {
-                        validateTimeZoneData(data);
-                    } else {
-                        assert.throws(function () {
-                            throw error;
-                        }, Error);
-                    }
+                    assert.throws(function () {
+                        throw error;
+                    }, Error);
                     done();
                 });
             });
@@ -96,13 +92,9 @@ describe('timezonedb', function () {
                     lat: 1000,
                     lng: 1000
                 }, function (error, data) {
-                    if (!error) {
-                        validateTimeZoneData(data);
-                    } else {
-                        assert.throws(function () {
-                            throw error;
-                        }, Error);
-                    }
+                    assert.throws(function () {
+                        throw error;
+                    }, Error);
                     done();
                 });
             });
