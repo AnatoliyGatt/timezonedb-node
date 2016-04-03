@@ -135,16 +135,6 @@ describe('timezonedb', function () {
                     });
                 }, Error);
             });
-
-            it('should not be overridden', function () {
-                timezonedb.getTimeZoneData = function () {
-                    return '#getTimeZoneData()';
-                };
-
-                assert.throws(function () {
-                    assert.notEqual(timezonedb.getTimeZoneData(), '#getTimeZoneData()', '#getTimeZoneData() should not be overridden');
-                }, Error);
-            });
         });
     });
 });
