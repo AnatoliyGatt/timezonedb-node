@@ -11,8 +11,8 @@
 
 /**
  * @public
- * @description Expose function to initialize unchangeable instance of TimeZoneDB.
- * @returns {Function} - Function to initialize unchangeable instance of TimeZoneDB.
+ * @description Expose function to initialize instance of TimeZoneDB.
+ * @returns {Function} - Function to initialize instance of TimeZoneDB.
  */
 
 module.exports = require('./lib/timezonedb');
