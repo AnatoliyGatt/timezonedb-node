@@ -79,7 +79,7 @@ describe('timezonedb', function () {
             it('should respond with error when called with invalid zone', function (done) {
                 timezonedb.getTimeZoneData({
                     zone: 'Melbourne'
-                }, function (error, data) {
+                }, function (error) {
                     assert.throws(function () {
                         throw error;
                     }, Error);
@@ -91,7 +91,7 @@ describe('timezonedb', function () {
                 timezonedb.getTimeZoneData({
                     lat: 1000,
                     lng: 1000
-                }, function (error, data) {
+                }, function (error) {
                     assert.throws(function () {
                         throw error;
                     }, Error);
