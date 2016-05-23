@@ -48,7 +48,9 @@
     "test-cov": "API_KEY=DG2LCVSD76D5 istanbul cover node_modules/mocha/bin/_mocha -- --colors --sort --bail --reporter dot --check-leaks --full-trace --no-timeouts --recursive ./test/*.js",
     "test-tap": "API_KEY=DG2LCVSD76D5 mocha --colors --sort --bail --reporter tap --check-leaks --full-trace --no-timeouts --recursive ./test/*.js"
   },
-  "config": {},
+  "config": {
+    
+  },
   "dependencies": {},
   "devDependencies": {
     "codeclimate-test-reporter": "^0.3.1",
