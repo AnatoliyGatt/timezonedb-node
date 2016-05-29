@@ -14,7 +14,7 @@
     "json",
     "rest",
     "api",
-    "rest api",
+    "json rest api",
     "node"
   ],
   "homepage": "https://github.com/AnatoliyGatt/timezonedb-node",
