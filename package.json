@@ -51,9 +51,9 @@
   "config": {},
   "dependencies": {},
   "devDependencies": {
-    "codeclimate-test-reporter": "^0.3.1",
-    "istanbul": "^0.4.3",
-    "mocha": "^2.4.5"
+    "codeclimate-test-reporter": "^0.3.3",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
   },
   "peerDependencies": {},
   "bundledDependencies": [],
